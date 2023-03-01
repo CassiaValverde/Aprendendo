@@ -1,0 +1,6 @@
+class Carro:
+    def __init__(self, alguma_coisa= 'outra coisa'):
+        self.nome=alguma_coisa # hard coded-> é passado o parametro na mão 
+
+onix = Carro('Opala')
+print(onix.nome)
